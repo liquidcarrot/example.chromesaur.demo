@@ -11,7 +11,6 @@ class Ground {
     show() {
       ctx.drawImage(this.groundImage, this.x, height - 50, this.w, 28); 
     }  
-     
     // Update the ground
     update() {
       this.x -= this.speed;
